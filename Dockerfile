@@ -1,0 +1,6 @@
+FROM vscwjm/test:v4ui
+ENV TZ=Asia/Shanghai
+WORKDIR /root
+EXPOSE 80
+EXPOSE 443
+EXPOSE 10000
